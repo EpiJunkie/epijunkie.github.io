@@ -152,6 +152,7 @@ Port Online Frontend Name pp vp
 Below creates two Fiber Channel targets with dedicated boot drives and a shared VMFS datastore:
 
 /etc/[ctl.conf](https://www.freebsd.org/cgi/man.cgi?query=ctl.conf&amp;sektion=5)
+
 ```
 lun esxi-shared-datastore {
  backend block
@@ -188,6 +189,7 @@ target naa.2100001b561fffff {
  }
 }
 ```
+
 Start the ctld service:
 
 `root@freebsdhost: ~# service ctld start`
