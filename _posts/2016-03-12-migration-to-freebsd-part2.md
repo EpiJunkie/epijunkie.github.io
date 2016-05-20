@@ -2,8 +2,13 @@
 layout: post
 title: Migrating to FreeBSD - Part 2
 date: 2016-03-12
-tags: data migration freebsd solaris zfs
-category: blog
+categories:
+- technology
+tags:
+- data migration
+- freebsd
+- solaris
+- zfs
 ---
 
 Migrating to FreeBSD from Solaris: Part 2 - Moving data and volumes to new zpool without zfs send and zfs recv
