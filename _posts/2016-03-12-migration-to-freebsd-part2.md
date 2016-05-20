@@ -2,8 +2,7 @@
 layout: post
 title: Migrating to FreeBSD - Part 2
 date: 2016-03-12
-categories:
-- technology
+categories: blog
 tags:
 - data migration
 - freebsd
@@ -49,7 +48,8 @@ Then I roll back the snapshot and do a `diff` comparison of the old dataset and 
 
 ```
 zfs rollback oldtank@before-rsync
-
+```
+```
 diff -r /oldtank/ /newtank/ &gt; tank-diff-comparison.log
 ```
 
