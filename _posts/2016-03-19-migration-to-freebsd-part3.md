@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Migrating to FreeBSD - Part 3
