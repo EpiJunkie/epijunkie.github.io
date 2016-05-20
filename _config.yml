@@ -1,7 +1,7 @@
 title: JustinHolcomb.me
 description: A blog for Justin D Holcomb (@EpiJunkie on GitHub.com)
 url: http://epijunkie.github.io
-avatar: # path/to/avatar for index page. e.g. /assets/img/avatar.jpg
+avatar: /assets/img/avatar.jpg
 favicon: # path/to/favicon for site. e.g. /assets/img/favicon.ico
 google_analytics: # google analytics id
 disqus_shortname: # disqus_shortname for disqus comment system
@@ -16,7 +16,7 @@ disqus_shortname: # disqus_shortname for disqus comment system
 # a new whidow will be open when link is clicked.
 #
 about:
-  - paragraph: JustinHolcomb.me, a chronological documenting of my interest, current projects, and random thoughts. Built on ?link? by ?link? a Jekyll theme.
+  - paragraph: JustinHolcomb.me, a chronological documenting of my interest, current projects, and random thoughts. Built using ?link? by ?link?, a Jekyll theme.
     text_align: center
     links:
       - name: Book
