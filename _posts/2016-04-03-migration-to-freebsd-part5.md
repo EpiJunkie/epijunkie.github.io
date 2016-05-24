@@ -14,11 +14,13 @@ During [this transition to FreeBSD for my storage host](http://justinholcomb.me/
 This part of the series will conceptually cover jails, how they are useful and what they provide differently than a virtualized guest. This article will also briefly touch on the origins, some security implications, what silent observation is, some of the neat things ZFS add, and also some example use cases.
 
 First to give some background on what a jail is, why they were created, and how they are useful today. Jails stemmed from the idea of the `chroot`. For those not familiar, `chroot` changes the perspective of the shell to reorient itself to a new root. An example would be `chroot`ing to make some changes to your borked OS installation from a live CD.
+
 ```
 root@livecd:~ # mount /dev/da1s2 /mnt/borkedOSroot
 root@livecd:~ # chroot /mnt/borkedOSroot
 root@livecd:/ # pwd /
 ```
+
 This would allow changes to be made to files as if booted into the OS as normal. This could be useful if the kernel needed to be rebuilt or package needed to be installed to repair the OS. With a `chroot`, only the shell instance and it's child process have the change in perspective which is strictly limited from a directory perspective, nothing more.
 
 Jails improve upon this idea of the `chroot` by extending the perspective change to running processes as well. A jail is a `chroot` of a set of processes relative to a directory. A jail can be anything from a single process to a nearly* full blown instance of a FreeBSD. This is different from a virtualized machine, in that the jailed processes run directly on the host. The host can see those processes but from the perspective of a jail, there is no host*. Running `top` from inside a jail will only reveal the processes started for that jail, running `top` from the host will reveal everything including what is running inside jails.
