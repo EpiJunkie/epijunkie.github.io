@@ -13,6 +13,7 @@ During [this transition to FreeBSD for my storage host](http://justinholcomb.me/
 hosted SAN to bhyve. This part of the series will cover everything from powering down a supported VM on ESXi to powering it back on using bhyve.
 
 Caution/Requirement/Notes:
+
 *   Like everything dealing with Windows, it severally bloated this length of this article; my apologizes. A build after commit r288524  (any after 10.3-BETA1+ will work) is required for UEFI booting on which Windows VMs relies.
 *   Make a backup of your VMs before attempting this.
 *   The ESXi snapshots will need to be deleted for the vmdk file conversion to raw. Without deleting the snapshots, the conversion tools will yield a hard drive image at the state from the first snapshot in the tree.
