@@ -22,12 +22,15 @@ Setting a user defined zfs property for the LUN value
 I highly recommend to set a [user defined property](https://docs.oracle.com/cd/E19120-01/open.solaris/817-2271/gdrcw/index.html) on each iSCSI/FC ZVol dataset to keep track of the LU device-id associated with it. The reason is, the device-id is not kept with the ZVol but in fact kept on the OS drive. This can be a problem if you lose your OS drive or move the ZVol to another pool in a `zfs send | zfs recv` operation, and then want to import the LU from that new location to the same hosts. For example, ESXi will not recognize the same block storage device under a new device-id number.
 
 First grab the LU device-id value:
+
 ```
 root@solaris:~# stmfadm list-lu -v | egrep "LU|Data File"
 LU Name: 600144F010010600000065677FFF1234
 Data File : /dev/zvol/rdsk/tank/zvols/esxi-shared-storage
 ```
+
 or
+
 ```
 root@freebsd:~ # ctladm devlist
 LUN Backend       Size (Blocks)   BS Serial Number    Device ID       
@@ -35,6 +38,7 @@ LUN Backend       Size (Blocks)   BS Serial Number    Device ID   
 ```
 
 Then set the user define property:
+
 ```
 epijunkie@anyOS:~# zfs set lu:device-id=600144F010010600000065677FFF1234 tank/zvols/esxi-shared-storage
 ```
@@ -73,9 +77,11 @@ In this situation because a snapshot can not be created, it is recommended to t
 ```
 root@solaris:~# svcadm disable stmf
 ```
+
 or
+
 ```
-root@freebsd:~ # service ctld stop</pre>
+root@freebsd:~ # service ctld stop
 ```
 
 Next lets write the ZVol contents to a gzipped file for transportation.
@@ -109,7 +115,9 @@ Next re-create the LU using the same number as before.
 ```
 root@newsolaris:~# stmfadm create-lu --lu-prop guid=600144F010010600000065677FFF1234 /dev/zvol/rdsk/NEWtank/zvols/esxi-shared-storage
 ```
+
 or
+
 ```
 root@newfreebsd:~ # ctladm create -b block -l 0 -d 600144F010010600000065677FFF1234 -o file=/dev/zvol/rdsk/NEWtank/zvols/esxi-shared-storage
 ```
