@@ -26,7 +26,7 @@ One of the rough edges: the VNC server seems to be temperamental to which client
 - UEFI guest
 
 ## How to test
-This feature requires 11-CURRENT and was tested against a refresh installation of the [r300097 ISO snapshot](http://ftp.freebsd.org/pub/FreeBSD/snapshots/ISO-IMAGES/11.0/FreeBSD-11.0-CURRENT-amd64-20160518-r300097-disc1.iso.xz). An [upgraded system worked as well](http://www.bsdnow.tv/tutorials/stable-current) and was updated to r300900.
+This feature requires 11-CURRENT and was tested against a refresh installation of the [r300097 ISO snapshot](http://ftp.freebsd.org/pub/FreeBSD/snapshots/ISO-IMAGES/11.0/FreeBSD-11.0-CURRENT-amd64-20160518-r300097-disc1.iso.xz). An [upgraded system worked as well](http://www.bsdnow.tv/tutorials/stable-current) and was updated to r300899.
 
 After booting the 11-CURRENT host, download the bhyve-graphics code, build  `bhyve`, replace the current `bhyve` binary in `$PATH`, and then download the latest UEFI boot binary from grehan's public FreeBSD file directory.
 
@@ -196,7 +196,7 @@ bhyve \
 ## Testing platform
 - Dell Poweredge R610, dual L5630 Xeon
 - Fresh install of -CURRENT r300097 from ISO snapshots
-  - Then ran further test after following the BSDNow.tv guide to upgrade to -CURRENT r300900
+  - Then ran further test after following the BSDNow.tv guide to upgrade to -CURRENT r300899
     - Took about 80 minutes to `buildworld` against 16 logical cores at 2.13Ghz.
 - Successfully tested the following OSes:
   - Windows 2012r2 Standard Server from MSDN image
