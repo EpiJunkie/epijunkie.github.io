@@ -10,11 +10,11 @@ category: blog
 
 Initial graphics support (UEFI GOP) has been released for `bhyve` for UEFI  guests. Rather than interfacing with a guest through a serial interface, a basic VNC server is started to manage the guest. For Windows this negates the need to use the [AutoAttend.xml installation method](https://people.freebsd.org/~grehan/bhyve_uefi/windows_iso_repack.txt)  and the boot process can be watched which is helpful during update installations. Matt Churchyard has already added support to [vm-bhyve](https://github.com/churchers/vm-bhyve) for these recent developments. After taking a look at the [source changes to bhyve](https://svnweb.freebsd.org/base?view=revision&revision=300829) and looking at the work from Matt Churchyard, I have been able to figure out how to implement this directly in bhyve.
 
-The VNC server is attached to a frame buffer as a PCI device. When bhyve is started with a frame buffer device, a PS2 mouse and keyboard are automatically attached. For newer OSes, also attaching a xHCI (USB 3.0) tablet is suggested as the PS2 mouse does not map the position of the cursor exactly. The screen resolution, the binding IP, and listening port can be configured, see examples below. There is also the `wait` directive which waits to boot the guest until a VNC client connects, helpful for installations.
+The VNC server is attached to a frame buffer as a PCI device. When `bhyve` is started with a frame buffer device, a PS2 mouse and keyboard are automatically attached. For newer OSes, also attaching a xHCI (USB 3.0) tablet is suggested as the PS2 mouse does not map the position of the cursor exactly. The screen resolution, the binding IP, and listening port can be configured, see examples below. There is also the `wait` directive which waits to boot the guest until a VNC client connects, helpful for installations.
 
 ## Beware
 
-There are some rough edges with this. This is _not _being developed by a multi-national-billion-dollar company nor has it been in development for the last decade, so keep that in mind before demanding features. At the very least reach out to the developers and thank them.
+There are some rough edges with this. This is _not_ being developed by a multi-national-billion-dollar company nor has it been in development for the last decade, so keep that in mind before demanding features. At the very least reach out to the developers and thank them.
 
 One of the rough edges: the VNC server seems to be temperamental to which client connects to it. On OSX I had success with [Chicken of the VNC](https://sourceforge.net/projects/chicken/). Interestingly (on OSX) I was able to install an OS on a guest using the [RealVNC](https://www.realvnc.com/) client but after the installation it would no longer connect. I would venture to guess it is due to the compression method used by the client/server and negotiating which compression encoding to use.
 
@@ -28,7 +28,7 @@ One of the rough edges: the VNC server seems to be temperamental to which client
 ## How to test
 This feature requires 11-CURRENT and was tested against a refresh installation of the [r300097 ISO snapshot](http://ftp.freebsd.org/pub/FreeBSD/snapshots/ISO-IMAGES/11.0/FreeBSD-11.0-CURRENT-amd64-20160518-r300097-disc1.iso.xz). An [upgraded system worked as well](http://www.bsdnow.tv/tutorials/stable-current) and was updated to r300900.
 
-After booting the 11-CURRENT host, download the bhyve-graphics code, build  `bhyve`, replace the current `bhyve` binary in $PATH, and then download the latest UEFI boot code from grehan's public FreeBSD file directory.
+After booting the 11-CURRENT host, download the bhyve-graphics code, build  `bhyve`, replace the current `bhyve` binary in `$PATH`, and then download the latest UEFI boot binary from grehan's public FreeBSD file directory.
 
 ```
 svnlite co http://svn.freebsd.org/base/projects/bhyve_graphics
@@ -202,5 +202,5 @@ bhyve \
   - Windows 2012r2 Standard Server from MSDN image
   - Windows 8.1 from MSDN image
   - Windows 10 from MSDN image
-    - Booted to the installation disc but Windows did not like the environment and the OS would not boot.
+    - Booted to the installation disc but Windows did not like the environment and the installation would not boot.
   - FreeBSD 10.3-REL UEFI DVD
