@@ -48,7 +48,7 @@ diff -r /oldtank/ /newtank/ > tank-diff-comparison.log
 
 I then do a quick check to see if `diff` reported any differences.
 ```
-cat tank-diff-comparison.log | grep "Only in"
+grep "Only in" tank-diff-comparison.log
 ```
 If anything comes up, I open the log file to check specifically what the issue was. Most of the time it is .DS_Store files which I ignore.
 
