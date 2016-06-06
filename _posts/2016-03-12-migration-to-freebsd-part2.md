@@ -47,9 +47,11 @@ diff -r /oldtank/ /newtank/ > tank-diff-comparison.log
 ```
 
 I then do a quick check to see if `diff` reported any differences.
+
 ```
 grep "Only in" tank-diff-comparison.log
 ```
+
 If anything comes up, I open the log file to check specifically what the issue was. Most of the time it is .DS_Store files which I ignore.
 
 Some thing to keep in mind is the expansion of size on compressed pools. You might be very surprised and when your data no longer fits if you are close to your pool capacity or have a good `COMPRESSRATIO`.
