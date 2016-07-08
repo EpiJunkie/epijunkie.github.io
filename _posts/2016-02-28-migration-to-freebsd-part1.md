@@ -48,7 +48,7 @@ What specific 'core' services will be hosted as virtual machines?
 *   pfSense #3 - bhyve - Outgoing VPN traffic.
 *   FreeBSD #1 - jail - Internal website for lab wiki and private journal via `nginx` and `MariaDB`.
 *   FreeBSD #2 - jail - Primary DNS resolution and ad blocking through `unbound` and a clever `nginx` configuration.
-*   FreeBSD #3 - bhyve and Fiber Channel - `poudriere` build machine.
+*   FreeBSD #3 - bhyve and Fiber Channel - [`poudriere` build machine](http://justinholcomb.me/blog/2016/07/03/poudriere-in-bhyve-and-bare-metal.html).
 *   FreeBSD #4 - bhyve - Internal root certificate authority.
 *   FreeBSD #5 - bhyve - Internal intermediate certificate authority.
 *   FreeBSD #6 - jail - Serve music through Plex using `nullfs` to pull music from the host.
