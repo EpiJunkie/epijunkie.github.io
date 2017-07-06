@@ -252,14 +252,14 @@ Append to `/boot/loader.conf` with your favorite text editor and input the follo
 
 The first four entries are the same modifications made to the installation media earlier and are still necessary to view the console via serial on the APU2C4. The `dummynet_load="YES"` entry will load the `dummynet` kernel module on boot and `if_bridge_load="YES"` will load the `if_bridge` kernel module on boot.
 
-Append to `/etc/rc.conf` with your favorite text editor and input the following:
+Run the following commands to update `/etc/rc.conf`:
 
-    firewall_enable="YES"
-    firewall_script="/etc/firewall"
-    cloned_interfaces="bridge0"
-    ifconfig_bridge0="addm igb0 addm igb2"
-    ifconfig_igb0="up"
-    ifconfig_igb2="up"
+    sysrc firewall_enable="YES"
+    sysrc firewall_script="/etc/firewall"
+    sysrc cloned_interfaces="bridge0"
+    sysrc ifconfig_bridge0="addm igb0 addm igb2"
+    sysrc ifconfig_igb0="up"
+    sysrc ifconfig_igb2="up"
 
 The first entry `firewall_enable="YES"` enables the `ipfw` firewall using the script located at the next entry (`firewall_script="/etc/firewall"`). Later we will create this file (`/etc/firewall`) and give it execute permissions. The next entry, `cloned_interfaces="bridge0"`, creates a `bridge0` device which will allow traffic to bridge from the inlet interface (`igb0`) to the outlet interface (`igb2`). The next entry `ifconfig_bridge0="addm igb0 addm igb2"`, adds both interfaces to the bridge. The next and last two entries put the interfaces in the "up" configuration to allow traffic to pass, this is required because no IP address is being configured on these interfaces.
 
