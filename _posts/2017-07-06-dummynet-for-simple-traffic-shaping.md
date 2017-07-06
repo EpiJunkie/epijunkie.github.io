@@ -228,13 +228,14 @@ Select "Yes" to make some final modifications from a shell.
 
 ![Manual Configuration - FreeBSD 11.0 Installer](/assets/img/blog/201707-bwctl/25-manual-conf.png)
 
-We will continue from this prompt in the next section. DO NOT reboot just yet.
+We will continue from this prompt in the next section.
 
     This shell is operating in a chroot in the new system. When finished making configuration changes, type "exit".
     #
 
+DO NOT reboot just yet.
 
-<p>&nbsp;</p>
+
 Post installation changes
 ----
 This section continues from the shell prompt after the installation in the previous section but before rebooting. Some changes need to be made for a successful first boot and we will also configure `dummynet` in `ipfw`.
@@ -414,8 +415,9 @@ Troubleshooting
 
       mountroot>
 
+Email me with other issues to post here.
 
-<p>&nbsp;</p>
+
 Thank you
 ----
 This project was made possible by Luigi Rizzo for creating the code and Allan Jude for making me aware of the technology on [BSD Now](http://bsdnow.tv).
