@@ -234,7 +234,7 @@ We will continue from this prompt in the next section. DO NOT reboot just yet.
     #
 
 
-<p></p>
+<p>&nbsp;</p>
 Post installation changes
 ----
 This section continues from the shell prompt after the installation in the previous section but before rebooting. Some changes need to be made for a successful first boot and we will also configure `dummynet` in `ipfw`.
@@ -415,7 +415,7 @@ Troubleshooting
       mountroot>
 
 
-<p></p>
+<p>&nbsp;</p>
 Thank you
 ----
 This project was made possible by Luigi Rizzo for creating the code and Allan Jude for making me aware of the technology on [BSD Now](http://bsdnow.tv).
