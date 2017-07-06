@@ -234,6 +234,7 @@ We will continue from this prompt in the next section. DO NOT reboot just yet.
     #
 
 
+
 Post installation changes
 ----
 This section continues from the shell prompt after the installation in the previous section but before rebooting. Some changes need to be made for a successful first boot and we will also configure `dummynet` in `ipfw`.
@@ -412,6 +413,7 @@ Troubleshooting
         <empty line>    Abort manual input
 
       mountroot>
+
 
 
 Thank you
