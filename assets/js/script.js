@@ -22,6 +22,7 @@ $(document).ready(function() {
     }
   }
 
+/* Commented out due to not wanting captions for images.
   // insert caption for post imgs
   var caption = "";
   if ($(".post-content").hasClass("chinese")) {
@@ -33,6 +34,7 @@ $(document).ready(function() {
   for (var i = 0; i < imgs.length; i ++) {
     $(imgs[i]).parent().append("<p style='text-align:center'>" + caption + " " + (i+1) + "</p>");
   }
+*/
 
   // show off-canvas menu
   if (window.matchMedia('(max-width: 768px)').matches) {
