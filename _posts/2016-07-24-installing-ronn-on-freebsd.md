@@ -14,7 +14,7 @@ This weekend I converted `chyves` to use the Ruby tool [ronn](https://github.com
 Install `bash`:
 
 ```
-pkg install bash
+pkg install bash curl ca_root_nss
 ```
 
 Add the file-descriptor file system entry to `/etc/fstab`:
@@ -26,7 +26,7 @@ fdesc    /dev/fd     fdescfs     rw  0   0
 Mount the new entry:
 
 ```
-mount -a
+mount fdesc
 ```
 
 Enter into the `bash` shell:
