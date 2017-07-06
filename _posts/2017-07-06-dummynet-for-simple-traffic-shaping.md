@@ -18,6 +18,7 @@ This article will go over installing FreeBSD 11.0-RELEASE on a PC Engine APU2C4,
 
 Required components
 -----
+
 - A copy of [CHECKSUM.SHA512-FreeBSD-11.0-RELEASE-amd64](https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/11.0/CHECKSUM.SHA512-FreeBSD-11.0-RELEASE-amd64)
 - A copy of [FreeBSD-11.0-RELEASE-amd64-memstick.img.xz ](https://download.freebsd.org/ftp/releases/amd64/amd64/ISO-IMAGES/11.0/FreeBSD-11.0-RELEASE-amd64-memstick.img.xz)
 - Spare 1GB or larger USB thumbdrive
