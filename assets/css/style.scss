@@ -265,6 +265,7 @@ img {
   -webkit-transition: left .7s;
   -moz-transition: left .7s;
   transition: left .7s;
+  overflow: scroll;
 }
 
 @media (min-width: 600px) {
