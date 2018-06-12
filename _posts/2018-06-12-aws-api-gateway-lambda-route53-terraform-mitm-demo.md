@@ -21,24 +21,24 @@ The overview above transpires in under 500 &micro;s, impressive to say the least
 
 Ignoring data costs as they will be similar between the two solutions. The smallest EC2 ([t2.nano](https://aws.amazon.com/ec2/pricing/on-demand/)) instance will cost $50.81/year to run. Compare that to the API-Gateway/Lambda solution which will cost $17.90 for the same application. Below is how those cost break out .
 
-#### EC2 solution (sans bandwidth costs):
+**EC2 solution (sans bandwidth costs)**:
 24 (hours) &#42; 365 (days) &#42; 0.0058 (Price per hour) = **50.808**
 
-#### API Gateway / Lambda solution (sans bandwidth costs):
+**API Gateway / Lambda solution (sans bandwidth costs)**:
 
 60 (seconds) &#42; 60 (minutes) &#42; 24 (hours) &#42; 365 (days) = 31,536,000 seconds in a year
 
 31536000 / 8 (request every 8 seconds) = 3,942,000 requests the application will make in a year
 
-##### Lambda specific cost:
+**Lambda specific cost**:
 
 $0.00000000208 ([Price per &micro;s in a 128MB env](https://aws.amazon.com/lambda/pricing/)) &#42; 500 (max processing time in &micro;s) &#42; 3942000 (requests per year) = 4.09968
 
-##### API Gateway specific cost:
+**API Gateway specific cost**:
 
 $0.0000035 ([Price per API call to API Gateway](https://aws.amazon.com/api-gateway/pricing/)) &#42; 3942000 = 13.797
 
-##### Costs per year:
+**Costs per year**:
 
 $13.797 (API Gateway) &#43; $4.09968 (Lambda) = **17.89668** (plus data)
 
