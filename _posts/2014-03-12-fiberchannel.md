@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Fiber Channel for a homelab
-date: 2014-03-12
-tags: bhyve poudriere
-category: blog
+tags: [bhyve, poudriere]
+style: border
+color: primary
+description: Using FiberChannel in a homelab
 ---
 
 # Fiber Channel for a homelab

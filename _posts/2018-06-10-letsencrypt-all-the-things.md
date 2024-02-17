@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Let's Encrypt all the things.
-date: 2018-06-10
-tags: https letsencrypt gitpages
-category: blog
+tags: [announcement, letsencrypt, github pages]
+style: border
+color: primary
+description: Brief announcement changing blog to GitHub Pages with Let's Encrypt.
 ---
 
 Thanks to the partnership between GitHub and Let's Encrypt, [custom domains now support HTTPS](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/).

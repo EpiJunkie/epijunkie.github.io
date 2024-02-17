@@ -1,7 +1,16 @@
-<div class="footer">
-  <span>&copy;</span>
-  <span><script type="text/javascript">document.write(new Date().getFullYear());</script></span>
-  <a class="link-1" href="/">{{ site.title }}</a>
-  <br />
-  <span>Powered by <a class="link-1" href="http://jekyllrb.com/">Jekyll</a> with <a class="link-1" href="https://github.com/kkninjae/book">Book</a> theme.</span>
-</div>
+<footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>
+    by <strong>{{ site.author.name }}</strong>
+  </small>
+
+  {% include social.html %}
+
+  {%- assign theme_name = "portfolYOU" -%}
+  {%- assign theme_repo = "https://github.com/YoussefRaafatNasry/portfolYOU" -%}
+  <small id="attribution">
+    theme <a href="{{ theme_repo }}">{{ theme_name }}</a>
+  </small>
+
+</footer>

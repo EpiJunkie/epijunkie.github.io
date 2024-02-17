@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Using dummynet for simple bandwidth control
-date: 2017-07-06
-tags: freebsd dummynet bandwidth control
-category: blog
+tags: [freebsd, dummynet, bandwidth control]
+style: border
+color: primary
+description: Control bandwidth on FreeBSD using dummynet.
 ---
 
 Using dummynet for simple bandwidth control

@@ -1,0 +1,23 @@
+- name: Virtualization
+  percentage: 70
+  showPercentage: false
+
+- name: Proxmox
+  percentage: 20
+  showPercentage: false
+
+- name: Sysadmin (Linux)
+  percentage: 93
+  showPercentage: false
+
+- name: DevOps
+  percentage: 70
+  showPercentage: false
+
+- name: Kubernetes
+  percentage: 30
+  showPercentage: false
+
+- name: FreeBSD
+  percentage: 60
+  showPercentage: false

@@ -1,0 +1,24 @@
+- name: Jekyll
+  percentage: 5
+  color: danger
+  showPercentage: false
+
+- name: Python
+  percentage: 70
+  showPercentage: false
+
+- name: Go
+  percentage: 10
+  showPercentage: false
+
+- name: Bash
+  percentage: 90
+  showPercentage: false
+
+- name: Helm
+  percentage: 50
+  showPercentage: false
+
+- name: Jsonnet
+  percentage: 1
+  showPercentage: false

@@ -1,9 +1,9 @@
 ---
-layout: post
 title: chyves pre-announcement
-date: 2016-06-14
-tags: chyves bhyve iohyve
-category: blog
+tags: [announcement, chyves, bhyve, iohyve]
+style: border
+color: primary
+description: This is a pre-announcement for the chyves project.
 ---
 
 # chyves pre-announcement

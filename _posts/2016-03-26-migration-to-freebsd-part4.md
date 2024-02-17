@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Migrating to FreeBSD - Part 4
-date: 2016-03-26
-tags: freebsd solaris zfs stmfadm fiber channel lun
-category: blog
+tags: [series, freebsd, solaris, zfs, stmfadm, fiber channel, lun]
+style: border
+color: primary
+description: Part 4 in a series to migrate to FreeBSD.
 ---
 
 Migrating to FreeBSD from Solaris: Part 4 - Importing ESXi virtual machines to Bhyve

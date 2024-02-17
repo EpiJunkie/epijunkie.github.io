@@ -1,9 +1,9 @@
 ---
-layout: post
 title: MITM Demo using AWS API Gateway and Lambda deployed via Terraform
-date: 2018-06-12
-tags: aws api gateway lambda route53 terraform mitm demo IaC
-category: blog
+tags: [aws, api gateway, lambda, route53, terraform, mitm, demo, IaC]
+style: border
+color: primary
+description: Example of using AWS API Gateway and Lambda to perform a MITM deployed with terraform.
 ---
 
 Imagine wanting to modify an API request or response of a production system without actually touching that production system. One of the easiest ways to do that is to put a man-in-the-middle ([MITM](https://en.wikipedia.org/wiki/Man-in-the-middle_attack)) device between the device making the request and the production API system. There are several ways to implement a MITM, this is a 'hello world'-like implementation utilizing AWS [API Gateway](https://aws.amazon.com/api-gateway/) with [Lambda](https://aws.amazon.com/lambda/) running Python 3.6 and deployed via [Terraform](https://www.terraform.io/).

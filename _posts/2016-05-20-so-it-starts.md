@@ -1,9 +1,9 @@
 ---
-layout: post
 title: The start of using Jekyll
-date: 2016-05-20
-tags: english
-category: blog
+tags: [announcement]
+style: border
+color: primary
+description: An announcement of using Jekyll on Github Pages.
 ---
 
 So it starts

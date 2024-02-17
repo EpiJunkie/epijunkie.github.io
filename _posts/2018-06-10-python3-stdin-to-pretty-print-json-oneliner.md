@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Display formatted JSON via command line.
-date: 2018-06-10
-tags: display json command line cli stdin python python3 bash alias jq
-category: blog
+tags: [json, cli, python3, jq]
+style: border
+color: primary
+description: Various ways to manipulate JSON with CLI tools.
 ---
 
 Here are a few ways to display JSON in readable format via command line as an alternative to using [JSONlint.com](https://jsonlint.com/) or similar online tools.

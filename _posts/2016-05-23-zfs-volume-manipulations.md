@@ -1,9 +1,9 @@
 ---
-layout: post
 title: ZFS Volume Manipulation
-date: 2016-05-23
-tags: freebsd solaris zfs zvols
-category: blog
+tags: [freebsd, solaris, zfs, zvols]
+style: border
+color: primary
+description: Ramblings about ZFS and zvols.
 ---
 
 ZFS volume manipulations and best practices

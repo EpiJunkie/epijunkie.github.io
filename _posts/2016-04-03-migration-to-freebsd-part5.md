@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Migrating to FreeBSD - Part 5
-date: 2016-04-03
-tags: freebsd solaris zfs stmfadm fiber channel lun
-category: blog
+tags: [series, freebsd, solaris, zfs, stmfadm, fiber channel, lun]
+style: border
+color: primary
+description: Part 5 in a series to migrate to FreeBSD.
 ---
 
 Migrating to FreeBSD from Solaris 11: Part 5 - Jails

@@ -1,12 +1,12 @@
 ---
-layout: post
 title: Installing ronn on FreeBSD
-date: 2016-07-24
-tags: chyves ronn man page
-category: blog
+tags: [chyves, ronn, man page]
+style: border
+color: primary
+description: Install the 'ronn' man page generator on FreeBSD.
 ---
 
-These are some quick notes on getting `ronn` and it's dependancies installed on FreeBSD. Next entry here, in a couple of weeks, will have some interesting PCI pass-through related fun.
+These are some quick notes on getting `ronn` and it's dependencies installed on FreeBSD. Next entry here, in a couple of weeks, will have some interesting PCI pass-through related fun.
 
 # Installing Ruby tool '`ronn`' on FreeBSD
 This weekend I converted `chyves` to use the Ruby tool [ronn](https://github.com/rtomayko/ronn) as the man page generator for the project. Previously `txt2man` was being used but it lacked the ability to control the formatting and also the complexity of the `chyves` man page exceeded `txt2man`'s intended simple use case. There are now 2,200 lines in the `chyves` man page from 487 at the time of forking.

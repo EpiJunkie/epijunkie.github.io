@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Running poudriere in bhyve and on bare metal
-date: 2016-07-03
-tags: bhyve poudriere
-category: blog
+tags: [guide, freebsd, bhyve, poudriere]
+style: border
+color: primary
+description: A quick guide to installing poudriere on shared volume between a VM and a FreeBSD jail.
 ---
 
 # Running the same poudriere instance in bhyve and on bare metal
@@ -69,13 +69,13 @@ It will look something like this:
 ```
 root@themoat:~ # ctladm port -l
 Port Online Frontend Name     pp vp
-0    YES    tpc      tpc      0  0  
+0    YES    tpc      tpc      0  0
 1    NO     camsim   camsim   0  0  naa.5000000931975702
-2    YES    ioctl    ioctl    0  0  
+2    YES    ioctl    ioctl    0  0
 3    YES    camtgt   isp0     0  0  naa.210200e08bdb1d3e
-4    NO     camtgt   isp1     0  0  
-5    NO     camtgt   isp2     0  0  
-6    NO     camtgt   isp3     0  0  
+4    NO     camtgt   isp1     0  0
+5    NO     camtgt   isp2     0  0
+6    NO     camtgt   isp3     0  0
 ```
 
 #### Build custom kernel

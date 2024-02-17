@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Migrating to FreeBSD - Part 3
-date: 2016-03-19
-tags: freebsd solaris zfs stmfadm fiber channel lun
-category: blog
+tags: [series, freebsd, solaris, zfs, stmfadm, fiber channel, lun]
+style: border
+color: primary
+description: Part 3 in a series to migrate to FreeBSD.
 ---
 
 Migrating to FreeBSD from Solaris 11: Part 3 - Importing ZVols for serving via Fiber Channel

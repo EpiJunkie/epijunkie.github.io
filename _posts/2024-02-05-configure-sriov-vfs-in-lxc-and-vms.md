@@ -1,12 +1,10 @@
 ---
-layout: post
 title: Configure SR-IOV Virtual Functions (VF) in Proxmox LXC containers and VMs
-date: 2024-02-05
-tags: sriov virtual-functions lxc proxmox vms
-category: blog
+tags: [guide, sriov, virtual-functions, lxc, proxmox, vm]
+style: border
+color: primary
+description: This is a guide to setup Virtual Functions from network adapters capable of SR-IOV in Proxmox on LXC containers and VMs.
 ---
-
-This is a guide to setup Virtual Functions from network adapters capable of SR-IOV in Proxmox on LXC containers and VMs.
 
 [Originally posted by me on Reddit](https://www.reddit.com/r/Proxmox/comments/1ak26yg/guide_configure_sriov_virtual_functions_vf_in_lxc/).
 

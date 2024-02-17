@@ -1,9 +1,9 @@
 ---
-layout: post
 title: bhyve now supports UEFI GOP
-date: 2016-05-28
-tags: freebsd bhyve
-category: blog
+tags: [news, freebsd, bhyve]
+style: border
+color: primary
+description: Quick overview of a recent commit into FreeBSD-CURRENT supporting UEFI GOP with bhyve.
 ---
 
 # bhyve now supports UEFI GOP aka VNC support for guests

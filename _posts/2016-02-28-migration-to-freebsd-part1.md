@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Migrating to FreeBSD - Part 1
-date: 2016-02-28
-tags: freebsd solaris zfs
-category: blog
+tags: [series, freebsd, solaris, zfs]
+style: border
+color: primary
+description: Part 1 in a series to migrate to FreeBSD.
 ---
 
 Migrating to FreeBSD from Solaris 11: Part 1 - About
