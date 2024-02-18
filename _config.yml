@@ -56,7 +56,7 @@ disqus:
 analytics:
   enabled: true
   google:
-    tracking_id: UA-78748357-1
+    tracking_id: 365408730
 
 ### Buy me a coffee ###
 # See https://www.buymeacoffee.com/
