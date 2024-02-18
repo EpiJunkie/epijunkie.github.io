@@ -118,7 +118,7 @@ Here are some additional photos:
 
 As installed in Supermicro case.
 
-![Chassis overview](assets/img/blog/2016-06-12-pwn-controller/06-custom-pwm-controller-installed-wide.jpeg)
+![Chassis overview](/assets/img/blog/2016-06-12-pwn-controller/06-custom-pwm-controller-installed-wide.jpeg)
 
 Chassis overview, not installed. Bottom side of board showing with black rubber feet.
 
