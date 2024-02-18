@@ -4,6 +4,7 @@ tags: [freebsd, dummynet, bandwidth control]
 style: border
 color: primary
 description: Control bandwidth on FreeBSD using dummynet.
+comments: true
 ---
 
 Using dummynet for simple bandwidth control

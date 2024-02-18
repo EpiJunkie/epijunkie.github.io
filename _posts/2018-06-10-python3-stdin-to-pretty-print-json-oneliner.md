@@ -4,6 +4,7 @@ tags: [json, cli, python3, jq]
 style: border
 color: primary
 description: Various ways to manipulate JSON with CLI tools.
+comments: true
 ---
 
 Here are a few ways to display JSON in readable format via command line as an alternative to using [JSONlint.com](https://jsonlint.com/) or similar online tools.

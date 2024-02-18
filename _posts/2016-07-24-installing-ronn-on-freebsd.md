@@ -4,6 +4,7 @@ tags: [chyves, ronn, man page]
 style: border
 color: primary
 description: Install the 'ronn' man page generator on FreeBSD.
+comments: true
 ---
 
 These are some quick notes on getting `ronn` and it's dependencies installed on FreeBSD. Next entry here, in a couple of weeks, will have some interesting PCI pass-through related fun.

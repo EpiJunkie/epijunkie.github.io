@@ -4,6 +4,7 @@ tags: [epijunkie.com, series, freebsd, solaris, zfs, stmfadm, fiber channel, lun
 style: border
 color: primary
 description: Part 4 in a series to migrate to FreeBSD.
+comments: true
 ---
 
 Migrating to FreeBSD from Solaris: Part 4 - Importing ESXi virtual machines to Bhyve

@@ -4,6 +4,7 @@ tags: [epijunkie.com, series, freebsd, solaris, zfs, stmfadm, fiber channel, lun
 style: border
 color: primary
 description: Part 5 in a series to migrate to FreeBSD.
+comments: true
 ---
 
 Migrating to FreeBSD from Solaris 11: Part 5 - Jails

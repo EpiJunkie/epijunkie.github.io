@@ -4,6 +4,7 @@ tags: [guide, freebsd, bhyve, poudriere]
 style: border
 color: primary
 description: A quick guide to installing poudriere on shared volume between a VM and a FreeBSD jail.
+comments: true
 ---
 
 # Running the same poudriere instance in bhyve and on bare metal

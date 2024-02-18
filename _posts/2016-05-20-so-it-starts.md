@@ -4,6 +4,7 @@ tags: [announcement]
 style: border
 color: primary
 description: An announcement of using Jekyll on Github Pages.
+comments: true
 ---
 
 So it starts

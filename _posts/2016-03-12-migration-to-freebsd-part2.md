@@ -4,6 +4,7 @@ tags: [epijunkie.com, series, freebsd, data migration, solaris, zfs]
 style: border
 color: primary
 description: Part 2 in a series to migrate to FreeBSD.
+comments: true
 ---
 
 Migrating to FreeBSD from Solaris: Part 2 - Moving data and volumes to new zpool without zfs send and zfs recv

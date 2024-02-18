@@ -4,6 +4,7 @@ tags: [epijunkie.com, bhyve, poudriere]
 style: border
 color: primary
 description: Using FiberChannel in a homelab
+comments: true
 ---
 
 # Fiber Channel for a homelab

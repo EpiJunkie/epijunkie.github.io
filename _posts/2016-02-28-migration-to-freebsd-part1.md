@@ -4,6 +4,7 @@ tags: [epijunkie.com, series, freebsd, solaris, zfs]
 style: border
 color: primary
 description: Part 1 in a series to migrate to FreeBSD.
+comments: true
 ---
 
 Migrating to FreeBSD from Solaris 11: Part 1 - About

@@ -4,6 +4,7 @@ tags: [announcement, chyves, bhyve, iohyve]
 style: border
 color: primary
 description: This is a pre-announcement for the chyves project.
+comments: true
 ---
 
 # chyves pre-announcement

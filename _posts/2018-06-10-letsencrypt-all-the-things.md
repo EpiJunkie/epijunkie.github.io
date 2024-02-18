@@ -4,6 +4,7 @@ tags: [announcement, letsencrypt, github pages]
 style: border
 color: primary
 description: Brief announcement changing blog to GitHub Pages with Let's Encrypt.
+comments: true
 ---
 
 Thanks to the partnership between GitHub and Let's Encrypt, [custom domains now support HTTPS](https://blog.github.com/2018-05-01-github-pages-custom-domains-https/).

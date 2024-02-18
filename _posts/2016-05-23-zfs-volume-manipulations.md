@@ -4,6 +4,7 @@ tags: [freebsd, solaris, zfs, zvols]
 style: border
 color: primary
 description: Ramblings about ZFS and zvols.
+comments: true
 ---
 
 ZFS volume manipulations and best practices
