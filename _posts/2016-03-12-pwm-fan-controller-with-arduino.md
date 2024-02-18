@@ -1,6 +1,6 @@
 ---
 title: PWM fan controller with Arduino.
-tags: [epijunkie.com, guide, freeradius, wpa enterprise, fde]
+tags: [epijunkie.com, pwm controller, arduino]
 style: border
 color: primary
 description: Due to the loud fans in my Supermicro 847 JBOD, I create a PWM fan controller to manage the 7x fans using an Arduino.
@@ -77,6 +77,8 @@ I wanted to achieve quiet a few things with this controller, when I started the 
 Before this project, the extent of my programming was elaborate bash scripts including one to parse data for Excel reports and various PowerShell scripts to increase my laziness effectiveness at work. While I was waiting for my parts to arrive, I watched many videos on Arduino projects especially ones that went over the coding. After I had a better idea of how to break stuff, I installed the Arduino software and started programming using various snippet I found.
 
 By the time the parts were delivered, I had enough code to upload and test.
+
+[Here is the code I used on the Arduino.](https://github.com/EpiJunkie/slow-your-rotation)
 
 ### Assembling
 I spent about a week playing with a prototype board before starting over and creating version 2 for a better layout. At the time of this writing, I am still running on version 2 of the hardware but have plans to create a version 3.
