@@ -3,7 +3,7 @@ title: Changing Jekyll theme
 tags: [announcement, jekyll, github pages]
 style: border
 color: primary
-description: Announcement of changing this site's Jekyll theme.
+description: Announcement of recent changes to this site.
 comments: true
 ---
 
