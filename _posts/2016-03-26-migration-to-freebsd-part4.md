@@ -1,6 +1,6 @@
 ---
 title: Migrating to FreeBSD - Part 4
-tags: [series, freebsd, solaris, zfs, stmfadm, fiber channel, lun]
+tags: [epijunkie.com, series, freebsd, solaris, zfs, stmfadm, fiber channel, lun]
 style: border
 color: primary
 description: Part 4 in a series to migrate to FreeBSD.

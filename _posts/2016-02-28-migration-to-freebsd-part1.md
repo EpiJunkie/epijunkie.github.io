@@ -1,6 +1,6 @@
 ---
 title: Migrating to FreeBSD - Part 1
-tags: [series, freebsd, solaris, zfs]
+tags: [epijunkie.com, series, freebsd, solaris, zfs]
 style: border
 color: primary
 description: Part 1 in a series to migrate to FreeBSD.
