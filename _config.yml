@@ -48,11 +48,24 @@ author:
 ### Posts ###
 permalink: /blog/:title
 
+### Disqus ###
+disqus:
+  shortname: justinholcomb-me
+
 ### Analytics ###
 analytics:
   enabled: true
   google:
     tracking_id: UA-78748357-1
+
+### Buy me a coffee ###
+# See https://www.buymeacoffee.com/
+buymeacoffee:
+  enabled: true
+  username: epijunkie
+  color: "#007bff"
+  message: "Thank you for visiting!"
+  description: "Support this site remain ad-free by buying me tacos!"
 
 
 ### Defaults for collections ###

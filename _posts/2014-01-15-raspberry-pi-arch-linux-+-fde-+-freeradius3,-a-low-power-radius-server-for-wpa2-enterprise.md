@@ -4,6 +4,7 @@ tags: [epijunkie.com, guide, freeradius, wpa enterprise, fde]
 style: border
 color: primary
 description: This guide explains how to get RADIUS server running on a Raspberry Pi (rPi) using Arch Linux on a nearly Full Disk Encryption (FDE) SD card. This RADIUS server is intended to be a backup server. This post assumes a RADIUS server is already setup as well as a Certificate Authority (CA)
+comments: true
 ---
 
 Updated: 20140523 – Please update the initrd image after kernel updates. See below for more information.
