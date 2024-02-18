@@ -13,7 +13,7 @@ Updated: 20140523 – Please update the initrd image after kernel updates. See b
 # Table of contents
 
 - [Background](#background)
-- [What is this post about?](#what-is-this-post-about-)
+- [What is this post about?](#what-is-this-post-about)
 - [How To](#how-to)
   * [Installing Arch Linux](#installing-arch-linux)
     + [Download and flash the Arch Linux image](#download-and-flash-the-arch-linux-image)
