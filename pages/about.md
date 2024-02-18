@@ -14,8 +14,8 @@ My spark of interest in computing started when I was 10 years old, when I was gi
 When I'm not tinkering on computers and my homelab, I'm out 4x4ing in my [GX](https://www.caranddriver.com/lexus/gx/specs/2017/lexus_gx_lexus-gx460_2017), doing [full pulls](https://www.youtube.com/watch?v=rQcav-3UblQ) and road trips in my [Plaid](https://cars.usnews.com/cars-trucks/advice/tesla-model-s-plaid-profile), or ripping the back country in Utah on my [Surron](https://sur-ronusa.com/sur-ron-light-bee/).
 
 <div class="row">
-{% include about/skills.html title="Scripting Skills" source=site.data.scripting-skills %}
-{% include about/skills.html title="Infra Skills" source=site.data.infra-skills %}
+{% include about/skills.html title="Skillsets" source=site.data.scripting-skills %}
+{% include about/skills.html title="&nbsp;" source=site.data.infra-skills %}
 </div>
 
 <div class="row">

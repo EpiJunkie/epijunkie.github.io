@@ -1,4 +1,4 @@
-- name: Jekyll
+- name: Jekyll/Hugo
   percentage: 5
   color: danger
   showPercentage: false
